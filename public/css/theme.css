@@ -1,0 +1,116 @@
+/* General */
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Colores de fuentes y bg */
+
+.font-yellow {
+  color: #eac926;
+}
+
+.bg-yellow {
+  background-color: #eac926;
+}
+
+.font-blue {
+  color: #03264c;
+}
+
+.bg-blue {
+  background-color: #03264c;
+}
+
+.font-light-blue {
+  color: #1259c3;
+}
+
+.bg-light-blue {
+  background-color: #1259c3;
+}
+
+.font-grey {
+  color: #666;
+}
+
+.bg-grey {
+  background-color: #666;
+}
+
+.font-light-grey {
+  color: #ebebeb;
+}
+
+.bg-light-grey {
+  background-color: #ebebeb;
+}
+
+.font-green {
+  color: #39b54a;
+}
+
+.bg-green {
+  background-color: #39b54a;
+}
+
+.font-white {
+  color: white;
+}
+
+/* Tamaños de fuentes */
+
+.font-title {
+  font-size: 24px;
+}
+
+.font-large {
+  font-size: 18px;
+}
+
+.font-medium {
+  font-size: 16px;
+}
+
+/* Formas y estilo de cajas */
+.nav-section {
+  padding: 0;
+}
+
+.nav-bar ul li {
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.burger-icon {
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer-icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.footer-p {
+  margin-top: 0px;
+}
+
+.footer-section {
+  margin-top: 20px;
+}
