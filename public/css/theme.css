@@ -1,6 +1,11 @@
 /* General */
+* {
+  margin: 0;
+}
+
 h1 {
   margin: 0;
+  width: 50%;
 }
 
 h3 {
@@ -13,6 +18,24 @@ body {
 
 .center {
   text-align: center;
+}
+
+main {
+  width: 90%;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 8px;
+}
+
+footer {
+  padding: 8px;
+}
+
+article {
+  margin-bottom: 10px;
 }
 
 /* Colores de fuentes y bg */
@@ -69,6 +92,10 @@ body {
   color: white;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 /* Tamaños de fuentes */
 
 .font-title {
@@ -100,6 +127,13 @@ body {
 .burger-icon {
   text-align: center;
   font-size: 25px;
+  margin: 0 auto;
+  width: 26px;
+  height: 26px;
+  background-color: #1259c3;
+  color: white;
+  padding: 4px;
+  border-radius: 15%;
 }
 
 .footer-icon {
@@ -113,4 +147,29 @@ body {
 
 .footer-section {
   margin-top: 20px;
+}
+
+.truck-icon {
+  width: 25px;
+  height: 25px;
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid #39b54a;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.div-article {
+  background-color: white;
+  border-top: 1px, solid, #ebebeb;
+  padding: 10px;
+}
+
+.product {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/* utils */
+.p-10 {
+  padding-top: 10px;
 }
