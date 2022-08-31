@@ -18,16 +18,19 @@ rel="stylesheet" />
 
 
   <body class="bg-light-grey">
-    <header class="bg-yellow">
-      <h1>
-        <img src="/images/logo-mercado-liebre.svg" alt="Logo de la empresa" />
+    <header class="bg-yellow  flex-center">
+      <div class="top-header section-flex">
+        <h1 class="logo-h1">
+        <img src="/images/logo-mercado-liebre.svg" alt="Logo de la empresa"/>
       </h1>
-      <div>
+      <div class="search-div">
         <input type="search" name="" id="" placeholder="Buscar producto" />
       </div>
 
-      <p class="center"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito
+      <p class="center w-100 compra-p"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito
       </p>
+    </div>
+    
 
       <nav class="nav-bar">
           <ul class="nav-section">
@@ -45,18 +48,19 @@ rel="stylesheet" />
             <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></i>
           </li>
         </ul>
-        <div class="burger-menu burger-icon">
-          <i class="fas fa-bars" ></i>
-          </div>
       </nav>
 
+      <div class="burger-menu burger-icon">
+        <i class="fas fa-bars" ></i>
+        </div>
+      
     </header>
 
     <img src="/images/img-home-banner.jpg" alt="Banner" width="100%" />
 
     <main>
-      <section>
-        <h2 class="font-title">Basado en tu última visita</h2>
+      <h2 class="font-title w-100">Basado en tu última visita</h2>
+      <section class="section-flex">
         <article class="product">
      
           <img
@@ -66,9 +70,10 @@ rel="stylesheet" />
           />
           <div class="div-article">
              <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large">$ 6.770</p>
-            <p class="font-medium font-green">40% off</p>
-            <h3 class="product-title font-medium font-grey p-10">Cafetera Moulinex</h3>
+            <p class="font-large fg-3">$ 6.770</p>
+            <p class="font-medium font-green fg-7">40% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">Cafetera Moulinex</h3>
+            
           </div>
         </article>
 
@@ -81,9 +86,71 @@ rel="stylesheet" />
           />
           <div class="div-article">
           <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large">$ 230.000</p>
-            <p class="font-medium font-green">20% off</p>
-            <h3 class="product-title font-medium font-grey p-10">Macbook Pro 2019</h3>
+            <p class="font-large fg-3">$ 230.000</p>
+            <p class="font-medium font-green fg-7">20% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">Macbook Pro 2019</h3>
+          </div>
+        </article>
+
+        <article class="product ">
+        
+          <img
+            src="/images/img-samsung-galaxy-s10.jpg"
+            alt="Samsung galaxy"
+            width="100%"
+          />
+          <div class="div-article">
+            <i class="fas fa-truck font-green truck-icon"></i>
+            <p class="font-large fg-3">$ 70.500</p>
+            <p class="font-medium font-green fg-7">10% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">Samsung Galaxy S10</h3>
+          </div>
+        </article>
+
+        <article class="product">
+          <img
+            src="/images/img-tv-samsung-smart.jpg"
+            alt="SmartTV Samsung"
+            width="100%"
+          />
+          <div class="div-article">
+            <i class="fas fa-truck font-green truck-icon"></i>
+            <p class="font-large fg-3">$ 23.200</p>
+            <p class="font-medium font-green fg-7">5% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">SmartTV Samsung 43"</h3>
+          </div>
+        </article>
+      </section>
+
+      <h2 class="font-title w-100">Sección ofertas</h2>
+      <section class="section-flex">
+        <article class="product">
+          <img
+            src="/images/img-cafetera-moulinex.jpg"
+            alt="Cafetera"
+            width="100%"
+          />
+          <div class="div-article">
+             <i class="fas fa-truck font-green truck-icon"></i>
+            <p class="font-large fg-3">$ 6.770</p>
+            <p class="font-medium font-green fg-7">40% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">Cafetera Moulinex</h3>
+            
+          </div>
+        </article>
+
+        <article class="product">
+          
+          <img
+            src="/images/img-macbook-pro-2019.jpg"
+            alt="Macbook"
+            width="100%"
+          />
+          <div class="div-article">
+          <i class="fas fa-truck font-green truck-icon"></i>
+            <p class="font-large fg-3">$ 230.000</p>
+            <p class="font-medium font-green fg-7">20% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">Macbook Pro 2019</h3>
           </div>
         </article>
 
@@ -96,9 +163,9 @@ rel="stylesheet" />
           />
           <div class="div-article">
             <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large">$ 70.500</p>
-            <p class="font-medium font-green">10% off</p>
-            <h3 class="product-title font-medium font-grey p-10">Samsung Galaxy S10</h3>
+            <p class="font-large fg-3">$ 70.500</p>
+            <p class="font-medium font-green fg-7">10% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">Samsung Galaxy S10</h3>
           </div>
         </article>
 
@@ -110,68 +177,9 @@ rel="stylesheet" />
           />
           <div class="div-article">
             <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large">$ 23.200</p>
-            <p class="font-medium font-green">5% off</p>
-            <h3 class="product-title font-medium font-grey p-10">SmartTV Samsung 43"</h3>
-          </div>
-        </article>
-      </section>
-
-      <section>
-        <h2 class="font-title">Sección ofertas</h2>
-        <article class="product">
-          <img 
-            src="/images/img-cafetera-moulinex.jpg"
-            alt="Cafetera"
-            width="100%"
-          />
-          <div class="div-article">
-            <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large">$ 6.770</p>
-            <p class="font-medium font-green">40% off</p>
-            <h3 class="product-title font-medium font-grey p-10">Cafetera Moulinex</h3>
-          </div>
-        </article>
-
-        <article class="product">
-          <img
-            src="/images/img-macbook-pro-2019.jpg"
-            alt="Macbook"
-            width="100%"
-          />
-          <div class="div-article">
-            <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large">$ 230.000</p>
-            <p class="font-medium font-green">20% off</p>
-            <h3 class="product-title font-medium font-grey p-10">Macbook Pro 2019</h3>
-          </div>
-        </article>
-
-        <article class="product">
-          <img
-            src="/images/img-samsung-galaxy-s10.jpg"
-            alt="Samsung galaxy"
-            width="100%"
-          />
-          <div class="div-article">
-            <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large">$ 70.500</p>
-            <p class="font-medium font-green">10% off</p>
-            <h3 class="product-title font-medium font-grey p-10">Samsung Galaxy S10</h3>
-          </div>
-        </article>
-
-        <article class="product">
-          <img
-            src="/images/img-tv-samsung-smart.jpg"
-            alt="SmartTV Samsung"
-            width="100%"
-          />
-          <div class="div-article">
-            <i class="fas fa-truck font-green truck-icon"></i>
-            <p class="font-large"> $ 23.200</p>
-            <p class="font-medium font-green">5% off</p>
-            <h3 class="product-title font-medium font-grey p-10">SmartTV Samsung 43"</h3>
+            <p class="font-large fg-3">$ 23.200</p>
+            <p class="font-medium font-green fg-7">5% off</p>
+            <h3 class="product-title font-medium font-grey p-10 w-100">SmartTV Samsung 43"</h3>
           </div>
         </article>
       </section>

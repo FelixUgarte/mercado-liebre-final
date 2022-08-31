@@ -3,7 +3,20 @@
     display: none;
   }
 
+  .section-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .product {
     box-shadow: none;
+    width: 21%;
+    margin: 2%;
+    justify-content: center;
   }
 }
