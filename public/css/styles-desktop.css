@@ -19,4 +19,17 @@
     margin: 2%;
     justify-content: center;
   }
+  /*   FORM */
+
+  .form-input {
+    width: 90%;
+  }
+
+  .input-label {
+    width: 100%;
+  }
+
+  .w-70 {
+    width: 70%;
+  }
 }
