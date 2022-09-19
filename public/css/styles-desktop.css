@@ -1,6 +1,18 @@
 @media (min-width: 769px) {
+  .main-form {
+    margin-bottom: 20%;
+  }
+
+  .footer-icon:hover {
+    color: #39b54a;
+  }
+
   .product-title {
     display: none;
+  }
+
+  .product:hover .product-title {
+    display: block;
   }
 
   .section-flex {
@@ -14,10 +26,17 @@
   }
 
   .product {
-    box-shadow: none;
     width: 21%;
     margin: 2%;
     justify-content: center;
+  }
+
+  .product:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .product {
+    box-shadow: none;
   }
   /*   FORM */
 
@@ -31,5 +50,18 @@
 
   .w-70 {
     width: 70%;
+  }
+
+  .truck-icon:hover {
+    transition: transform 2s;
+    transform: rotate(-90deg);
+  }
+
+  .color-change:hover {
+    background-color: #0022aa;
+  }
+
+  .footer-section {
+    display: flex;
   }
 }
